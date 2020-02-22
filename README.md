@@ -5,7 +5,7 @@
   * https://gist.github.com/a1exdandy/ec3dc03883295ac9d15fe1a5926bc7cc
   * https://gist.github.com/a1exdandy/ae3fb332efac879e97a41291f7fef727
 
-*) Compile shellcode:
+*) Compiled shellcode included in the /bin directory.
 ```
 brew install binutils
 brew cask install gcc-arm-embedded
@@ -14,6 +14,13 @@ export PATH=/usr/local/Cellar/binutils/2.34/bin/:$PATH
 cd ipwndfu
 make
 ```   
+
+*) Tested with iPhone 6s on a bare metal UBUNTU 18 64-bit system.
+
+*) Credits to https://github.com/a1exdandy, https://twitter.com/a1exdandy/status/1229505251994210305
+
+*) Many thanks to https://twitter.com/mosk_i/status/1229711716751036417 
+
 ---
 
 Original README:
