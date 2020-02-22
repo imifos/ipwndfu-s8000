@@ -5,7 +5,15 @@
   * https://gist.github.com/a1exdandy/ec3dc03883295ac9d15fe1a5926bc7cc
   * https://gist.github.com/a1exdandy/ae3fb332efac879e97a41291f7fef727
 
-   
+*) Compile shellcode:
+```
+brew install binutils
+brew cask install gcc-arm-embedded
+# depending: brew unlink binutils
+export PATH=/usr/local/Cellar/binutils/2.34/bin/:$PATH
+cd ipwndfu
+make
+```   
 ---
 
 Original README:
