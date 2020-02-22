@@ -1,14 +1,22 @@
+# This fork
+*) Adds a patch for 'ValueError: The device has no langid' 
+
+*) Applies 'patch for t7000/s8000/s8003' 
+  * https://gist.github.com/a1exdandy/ec3dc03883295ac9d15fe1a5926bc7cc
+  * https://gist.github.com/a1exdandy/ae3fb332efac879e97a41291f7fef727
+
+   
+---
+
+Original README:
+
 ![](repo/ipwndfu.png)
+
 # Open-source jailbreaking tool for many iOS devices
 
 
 **Read [disclaimer](#disclaimer) before using this software.*
 
-
-## This fork
-Adds a patch for 'ValueError: The device has no langid' and applies 'patch for t7000/s8000/s8003', 
-see https://gist.github.com/a1exdandy/ec3dc03883295ac9d15fe1a5926bc7cc and
-https://gist.github.com/a1exdandy/ae3fb332efac879e97a41291f7fef727 
 
 ## checkm8
 
